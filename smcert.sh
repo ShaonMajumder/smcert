@@ -33,6 +33,5 @@ cd $certificate_path
 openssl x509 -in server.crt -text -noout
 
 
-
 echo "Restarting Server"
 sudo systemctl restart apache2
